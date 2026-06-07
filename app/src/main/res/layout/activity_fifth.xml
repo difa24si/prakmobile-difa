@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"> <com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1A73E8" android:elevation="4dp"
+        app:title="Profil Mahasiswa SI"
+        app:titleTextColor="@android:color/white" />
+
+</com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="80dp" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profil &amp; Pengalaman"
+                        android:textColor="#1A73E8"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saya merupakan mahasiswa Program Studi Sistem Informasi semester 4. Selama masa perkuliahan, saya telah mempelajari berbagai konsep dasar hingga lanjutan dalam bidang teknologi informasi, khususnya pengembangan aplikasi dan pengelolaan data.\n\nSaya memiliki ketertarikan kuat dalam pemrograman dan pengembangan sistem. Beberapa mata kuliah yang telah saya tempuh antara lain Dasar Pemrograman (DPP), pengembangan web dengan Laravel, CodeIgniter, serta pengelolaan database (SQL). Saya tidak hanya meningkatkan kemampuan teknis, tetapi juga problem solving, analisis sistem, dan kerja sama tim."
+                        android:textColor="#3C4043"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kombinasi Teknologi &amp; Bisnis"
+                        android:textColor="#1A73E8"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Program Studi Sistem Informasi memiliki keuntungan besar karena menggabungkan teknologi dan bisnis. Mahasiswa tidak hanya belajar pemrograman, tetapi memahami cara teknologi menyelesaikan masalah organisasi.\n\nPeluang kerja sangat luas, mulai dari programmer, system analyst, database administrator, web developer, IT consultant, hingga project manager. Dengan kebutuhan digitalisasi dan big data saat ini, keahlian lulusan SI sangat dicari untuk meningkatkan efisiensi dan produktivitas perusahaan."
+                        android:textColor="#3C4043"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prospek Karier Strategis"
+                        android:textColor="#1A73E8"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Di era transformasi digital, hampir seluruh sektor (startup, perbankan, e-commerce, pemerintahan) bergantung pada sistem informasi terintegrasi.\n\nLulusan SI unggul dalam analisis dan pengambilan keputusan berbasis data (data-driven). Selain berkarier di perusahaan, mahasiswa SI juga berpeluang besar menjadi technopreneur dengan menciptakan produk digital dan membangun startup berbasis teknologi."
+                        android:textColor="#3C4043"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fleksibilitas &amp; Adaptabilitas"
+                        android:textColor="#1A73E8"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sistem Informasi bukan hanya tentang coding, melainkan bagaimana teknologi mempermudah pekerjaan manusia. Dunia teknologi sangat dinamis, menuntut mahasiswa untuk terus belajar hal baru secara mandiri.\n\nProses ini membentuk pribadi yang adaptif dan kreatif. Lulusan Sistem Informasi tidak hanya menjadi pengguna teknologi, tetapi juga pencipta solusi digital yang bermanfaat."
+                        android:textColor="#3C4043"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:src="@android:drawable/ic_menu_view"
+        android:contentDescription="Buka WebView"
+        app:tint="@android:color/white"
+        app:backgroundTint="#000000" app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:layout_gravity="bottom|end"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
