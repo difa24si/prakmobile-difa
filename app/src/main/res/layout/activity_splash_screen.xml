@@ -10,7 +10,7 @@
         android:id="@+id/imageView5"
         android:layout_width="305dp"
         android:layout_height="569dp"
-        android:src="@drawable/chatgpt_image_apr_22__2026__04_04_57_pm"
+        android:src="@drawable/logo_dipa"
         app:layout_constraintBottom_toTopOf="@id/loadingBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
