@@ -13,6 +13,7 @@ import com.example.dipaflower.Home.HomeFragment
 import com.example.dipaflower.Message.MessageFragment
 import com.example.dipaflower.Message.tutorial.TutorialMessageActivity
 import com.example.dipaflower.More.MoreFragment
+import com.example.dipaflower.Note.NoteFragment
 import com.example.dipaflower.databinding.ActivityBaseBinding
 
 class BaseActivity : AppCompatActivity() {
@@ -140,6 +141,16 @@ class BaseActivity : AppCompatActivity() {
 
                     true
                 }
+
+                R.id.note-> {
+
+                    replaceFragment(
+                        NoteFragment()
+                    )
+
+                    true
+                }
+
 
                 else -> false
             }
